@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red-color: #DC3545;
+    --white-color: #FFFFFF;
+}
+
+body{
+    text-align: center;
+    background-color: var(--red-color);
+    margin: auto;
+}
+
+#card{
+    background-color: var(--white-color);
+    padding: 1.5rem;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+#card p{
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    color: var(--red-color);
+    font-size: 1.3rem;
+}
+
+#card .buttons{
+margin: auto;
+}
+
+#card .btn{
+    border: 1px solid var(--white-color);
+}
+
+#card #nao{
+    position: absolute;
+}
